@@ -1,0 +1,89 @@
+
+body
+{
+    background-color: #68ef6c;
+}
+
+#mainPage {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: black;
+    padding: 40px 60px;
+    display: flex;
+    color: #68ef6c;
+    justify-content: space-between;
+    width: 1000px;
+    height: 480px;
+
+}
+
+#mainImage {
+    padding: 20px;
+}
+
+
+
+#THIStextColumn {
+    position: fixed;
+    padding: 20px;
+    margin-left: 420px;
+    margin-top: 10px;
+    font-family: 'Consolas';
+    font-size: 18px;
+    column-width: 500px;
+    background-color: black;
+}
+
+
+
+#searchBox {
+    width: 510px;
+    padding: 24px 16px;
+    height: 40px;
+    border: solid 2px;
+    border-color: #68ef6c;
+    background-color: black;
+    color: #68ef6c;
+    outline: none;
+    font-family: 'Consolas';
+    font-size: 22px;
+    resize: none;
+    box-sizing: border-box;
+    text-transform: lowercase;
+
+}
+
+#searchBox:focus {
+    border-color: yellow;
+    color: yellow;
+}
+
+
+#searchButton {
+    height: 51px;
+    width: 52px;
+    border: solid 2px;
+    border-color: #68ef6c;
+    background-color: black;
+    color: #68ef6c;
+    outline: none;
+    font-family: 'Consolas';
+    font-size: 24px;
+}
+
+#searchButton:hover {
+    border-color: yellow;
+    color: yellow;
+}
+
+
+#boxAndButton {
+    position: fixed;
+    padding-left: 420px;
+    padding-top: 400px;
+    text-wrap: nowrap;
+}

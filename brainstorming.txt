@@ -1,0 +1,11 @@
+- help:     lists available commands
+- theme:    lists available themes
+- themes:
+    - pink/red
+    - cyan/blue
+    - green
+    - 
+- info
+    - info safety
+    - info biology
+    - 
